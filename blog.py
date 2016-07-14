@@ -85,10 +85,23 @@ def generateIndexHtml(blog):
   <xmp style="display:none;" theme="simplex">
 '''
     end = '''
-* 感谢使用[h4de5ing](https://github.com/h4de5ing)开发的Python版单页博客系统
   </xmp>
   <script src="v/strapdown.js">
   </script>
+  <div class="container">
+    <div class="ds-thread" data-thread-key="home_index" data-title="h4de5ing's blog" data-url="http://19code.com"></div>
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:"lex109"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0]
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+    </script>
+  </div>
  </body>
 </html>
 '''
