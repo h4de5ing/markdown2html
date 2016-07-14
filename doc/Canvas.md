@@ -1,0 +1,31 @@
+```
+file:Canvas
+title:Android 绘图
+date:2016/06/05
+tags:Canvas
+```
+# Android中Canvas绘图
+* 继承View并重写onDraw方法
+* 常见绘图方法：
+  drawArc 绘制弧
+  drawBitmap 绘制位图
+  drawCircle 绘制圆形
+  drawLine 绘制线
+  drawOval 绘制椭圆
+  drawPath 绘制路径
+  drawPoint 绘制一个点
+  drawPoints 绘制多个点
+  drawRect 绘制矩形
+  drawRoundRect 绘制圆角矩形
+  drawText 绘制字符串
+  drawTextOnPath 沿着路径绘制字符串
+
+* 常见Paint方法
+setARGB/setColor 设置颜色
+setAlpha 设置透明度
+setAntiAlias 设置是否抗锯齿
+setShader 设置画笔的填充效果
+setShadowLayer 设置阴影
+setStyle 设置画笔风格
+setStrokeWidth 设置空心边框的宽度
+setTextSize 设置绘制文本时文字的大小

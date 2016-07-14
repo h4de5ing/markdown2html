@@ -1,0 +1,38 @@
+```
+file:WaveView
+title:水波纹特效
+date:2016/07/09
+tags:Android,WaveView
+```
+
+# 使用示例
+示例一
+```
+mWaveView = (WaveView) findViewById(R.id.wave_view);
+mWaveView.setDuration(5000);
+mWaveView.setStyle(Paint.Style.STROKE);
+mWaveView.setSpeed(400);
+mWaveView.setColor(Color.parseColor("#ff0000"));
+mWaveView.setInterpolator(new AccelerateInterpolator(1.2f));
+mWaveView.start();
+```
+示例二
+```
+mWaveView = (WaveView) findViewById(R.id.wave_view);
+mWaveView.setDuration(5000);
+mWaveView.setStyle(Paint.Style.FILL);
+mWaveView.setColor(Color.parseColor("#ff0000"));
+mWaveView.setInterpolator(new LinearOutSlowInInterpolator());
+mWaveView.start();
+```
+# 常用方法
+- setStyle 设置样式
+- setMaxRadiusRate 设置最大半径率
+- setColor 设置颜色
+- start 开始
+- stop 停止
+- setInitialRadius 初始化波纹半径
+- setDuration 设置持续时间
+- setMaxRadius 设置最大半径
+- setSpeed 设置速度
+- setInterpolator 设置差值器
