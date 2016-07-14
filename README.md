@@ -3,7 +3,7 @@
 * 我需要的博客系统能满足以下功能：
   - Markdown写博客
   - 能随时随地的写博客
-  - 需要生成html,放在[独立博客](http://19code.com),[Github](h4de5ing.github.io)上
+  - 需要生成html,放在[独立博客](http://19code.com),[Github](https://h4de5ing.github.io)上
 
 # 使用方法
 * 0x00 创建博客相关的目录结构,[Clone仓库](https://github.com/h4de5ing/markdown2html/archive/master.zip)
@@ -39,3 +39,6 @@
 python blog.py
 ```
 * 0x03 将*.github.io目录中的html文件上传至自己的仓库*.github.io仓库即可
+
+## 感谢
+[strapdown](https://github.com/arturadib/strapdown/)
